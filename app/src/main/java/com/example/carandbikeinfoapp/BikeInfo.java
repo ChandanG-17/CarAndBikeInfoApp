@@ -16,6 +16,7 @@ public class BikeInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bike_info);
      btn = findViewById(R.id.BookNow);
+     tv = findViewById(R.id.Display);
      btn.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View view) {
